@@ -145,7 +145,7 @@ const sphereShadow = new THREE.Mesh(
         alphaMap: simpleShadow
     })
 )
-sphereShadow.rotation.x = Math.PI * 0.5
+sphereShadow.rotation.x = - Math.PI * 0.5
 sphereShadow.position.y = plane.position.y + 0.01
 
 console.log(sphereShadow)
